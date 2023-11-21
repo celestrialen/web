@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celestria</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">Celestria</div>
+            <div class="burger-menu">&#9776;</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section id="home">
+        <div class="hero">
+            <h1>Welcome to Celestria.</h1>
+            <p>Explore the dark elegance of the cosmos through our lens.</p>
+            <a href="#portfolio" class="btn">View Portfolio</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Welcome to Celestria, a passionate organization dedicated to unraveling the mysteries of the cosmos through the lens of creativity. Founded by a group of avid space enthusiasts, Celestria is a cosmic journey that goes beyond traditional boundaries. Our mission is to capture the awe-inspiring beauty of the universe through compelling video content. Join us as we embark on cosmic explorations, from the vastness of nebulae to the mysteries of the night sky. Celestria is more than an organization; it's a space for like-minded individuals to come together, share ideas, and revel in the wonders of the cosmos. Let's connect, inspire, and explore the unknown together.</p>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>Our Video Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/zO99L3On0uE" frameborder="0" allowfullscreen></iframe>
+                    <h3>Exploring Nebulas</h3>
+                    <p>Join us on a mesmerizing journey through the cosmic wonders of nebulae.</p>
+                </div>
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZKdT2rEu9Uk" frameborder="0" allowfullscreen></iframe>
+                    <h3>Life Beyond Earth</h3>
+                    <p>Speculating on the possibilities of life beyond our planet in this thought-provoking video.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="quiz">
+        <div class="container">
+            <h2>Interactive Cosmos Quiz</h2>
+            <p>Test your knowledge about the universe with our cosmic quiz!</p>
+    
+            <div class="quiz-container">
+                <div class="question" id="question">Loading Question...</div>
+                <div class="answers" id="answers"></div>
+                <button id="next-btn" style="display: none;">Next Question</button>
+            </div>
+    
+            <div id="result"></div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <p>© 2023 Celestria Studios | All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
